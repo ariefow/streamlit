@@ -5,9 +5,13 @@
 #     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 # )
 
-# -*- coding: utf-8 -*-
+# 
 import streamlit as st
 from deepface import DeepFace
+import cv2
+import requests                                                                 
+import numpy as np                                                                                                                                   
+from PIL import Image
 
 # Daftar Model, Detector, dan Metric yang akan dicoba
 models = [
@@ -15,8 +19,10 @@ models = [
 ]
 
 backends = [
-    "opencv", "dlib", "yolov8", "yunet", "centerface",
+    "opencv", "yolov8", "yunet", "centerface",
 ]
+
+#, "dlib"
 
 metrics = ["cosine", "euclidean", "euclidean_l2"]
 

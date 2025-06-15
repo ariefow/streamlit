@@ -1,2 +1,12 @@
 streamlit
 deepface
+opencv-python
+tensorflow
+numpy
+Pillow
+ultralytics
+omegaconf
+tf-keras
+tensorflow
+opencv-python-headless
+dlib

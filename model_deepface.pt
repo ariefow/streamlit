@@ -1,0 +1,6 @@
+model_name = ArcFace
+detector = centerface
+metric = cosine
+distance = 0.5153678519476899
+threshold = 0.68
+verified = True
